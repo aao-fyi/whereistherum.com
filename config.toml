@@ -1,0 +1,26 @@
+# Root
+baseURL = 'https://whereistherum.com/'
+languageCode = 'en'
+
+# Info
+title = 'Where Is The Rum?'
+
+# Features
+disableKinds = ["taxonomy", "term"]
+enableGitInfo = true
+enableRobotsTXT = true
+
+# Minify
+[minify]
+  minifyOutput = true
+
+# Module
+[module]
+  # Version
+  [module.hugoVersion]
+    extended = true
+    min = "0.100.0"
+
+# Params
+[params]
+  description = 'The rum is gone.'

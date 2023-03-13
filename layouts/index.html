@@ -1,0 +1,12 @@
+{{ define "main" }}
+	<div class="container">
+    <h2>404</h2>
+    <h3>The Rum Is Gone</h3>
+		<div id="beastie">
+			{{/* Licensed from VectorStock(r) | Artist: popaukropa | Image ID: 22336265 */}}
+			{{ with resources.Get "img/beastie/beastie.png" }}
+        <img src="{{ .RelPermalink }}" alt="Octopus pirate twisted around bottle of rum."/>
+      {{ end }}
+		</div>
+	</div>
+{{ end }}

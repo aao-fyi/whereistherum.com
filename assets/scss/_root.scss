@@ -1,0 +1,8 @@
+:root {
+  @include loadvars($theme-dark);
+}
+@media (prefers-color-scheme: light) {
+	:root {
+    @include loadvars($theme-light);
+  }
+}

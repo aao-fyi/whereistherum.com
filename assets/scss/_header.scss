@@ -1,0 +1,19 @@
+header {
+  color: $light;
+	height: $header-height;
+	background: $primary;
+	border-bottom: 2px solid var(--body-color);
+  line-height: 0;
+}
+header .nav-logo a {
+	white-space: nowrap;
+	text-decoration: none;
+	color: $light;
+}
+header .nav-logo h1 {
+  display: inline-block;
+}
+header .nav-logo img {
+	height: $header-logo-height;
+	margin: 0 1rem;
+}

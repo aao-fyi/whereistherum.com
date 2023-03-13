@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html{{ with .Site.LanguageCode }} lang="{{ . }}"{{ end }}>
+	<head>
+    {{- partial "head.html" . -}}
+    {{- block "head" . }}{{- end }}
+	</head>
+  <body>
+    {{- partial "header.html" . -}}
+    {{- block "header" . }}{{- end }}
+    <main>
+      {{- block "main" . }}{{- end }}
+    </main>
+    {{- partial "footer.html" . -}}
+    {{- partial "foot.html" . -}}
+    {{- block "foot" . }}{{- end }}
+  </body>
+</html>

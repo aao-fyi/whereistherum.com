@@ -1,0 +1,20 @@
+$primary: #1f1f1f;
+$accent: #a8657b;
+$dark: #333;
+$light: #efefdc;
+
+$font-family: "IMFell",Georgia,serif;
+$font-size-base: 1.3rem;
+
+$header-height: 80px;
+$header-logo-height: 60px;
+
+$theme-light: (
+  body-bg: $light,
+  body-color: $dark,
+);
+
+$theme-dark: (
+  body-bg: $dark,
+  body-color: $light,
+);

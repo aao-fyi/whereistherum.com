@@ -1,0 +1,12 @@
+<header>
+  <nav>
+    <div class="nav-logo">
+      <a href="{{ .Site.BaseURL }}">
+        {{ with resources.Get "/img/logo/logo.svg" }}
+          <img src="{{ .RelPermalink }}" />
+        {{ end }}
+        <h1>Where Is The Rum?</h1>
+      </a>
+    </div>
+  </nav>
+</header>
